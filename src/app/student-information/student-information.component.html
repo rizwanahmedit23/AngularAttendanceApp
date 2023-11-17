@@ -1,0 +1,6 @@
+<!-- <input type="text" [(ngModel)] = "label">{{label}} -->
+<div class="studentSection">
+    <div class="student" *ngFor="let student of studentInfo">
+        <app-student [label] = "label" [studentDetail]="student" (emitStudentAttendance)="present($event)"></app-student>
+    </div>
+</div>

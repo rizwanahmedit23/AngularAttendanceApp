@@ -1,0 +1,16 @@
+<!-- <h1>{{label}}</h1> -->
+<div class="student-card">
+  <div class="studentRow">Name: {{ studentDetail.name }}</div>
+  <div class="studentRow">Roll No: {{ studentDetail.rollId }}</div>
+  <div class="studentRow">
+    Department Name: {{ studentDetail.departmentName }}
+  </div>
+  <div class="studentRow">Department Id: {{ studentDetail.departmentId }}</div>
+  <div class="studentRow">Location: {{ studentDetail.location }}</div>
+  <div class="studentRow">
+    <div class="btn-section">
+        <div><button class="present-btn" type="submit" (click)="submitName(studentDetail.name)">Present</button></div>
+        <div><button class="absent-btn" type="submit">Absent</button></div>
+    </div>
+  </div>
+</div>

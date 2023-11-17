@@ -1,0 +1,10 @@
+.studentSection {
+    /* width:100%; */
+  }
+  
+  .student {
+    margin: 10px;
+    border: 1px solid black;
+    background: #f5f5f5;
+  }
+  

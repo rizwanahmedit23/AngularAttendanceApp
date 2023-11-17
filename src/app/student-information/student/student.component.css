@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: #333;
+  }
+  .student-card{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    
+  }
+  .studentRow {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+  }
+  /* Adjust the styles of the buttons */
+  .present-btn {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-section{
+    width:50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px
+  }
+  .absent-btn {
+    padding: 10px;
+    background-color: rgb(171, 29, 10);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 10px; */
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
